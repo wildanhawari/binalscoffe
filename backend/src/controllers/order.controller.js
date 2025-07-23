@@ -9,7 +9,6 @@ import excelJS from "exceljs";
 export const insertOrder = async (req, res) => {
   try {
     const data = await prisma.$transaction(async (prisma) => {
-      // insert order
       const post = await prisma.orders.create({
         data: {
           code: setOrderCode("ORD-"),
@@ -99,39 +98,42 @@ export const getAllOrder = async (req, res) => {
   const search = req.query.search_query || "";
   let result = [];
   try {
+    const searchPattern = `%${search}%`;
+
     if (last_id < 1) {
-      result = await prisma.$queryRaw(
-        prism.sql`SELECT id, code, date, total, ppn, grandTotal
-          FROM orders
-          WHERE (
-            code LIKE CONCAT('%', ${search}, '%')
-            OR date LIKE CONCAT('%', ${search}, '%')
-            OR total LIKE CONCAT('%', ${search}, '%')
-            OR ppn LIKE CONCAT('%', ${search}, '%')
-            OR grandTotal LIKE CONCAT('%', ${search}, '%')
-          )
-          ORDER BY id DESC 
-          LIMIT ${limit};`
-      );
+      result = await prisma.$queryRaw`
+        SELECT id, code, date, total, ppn, grandTotal
+        FROM orders
+        WHERE (
+          code LIKE ${searchPattern}
+          OR CAST(date AS CHAR) LIKE ${searchPattern}
+          OR CAST(total AS CHAR) LIKE ${searchPattern}
+          OR CAST(ppn AS CHAR) LIKE ${searchPattern}
+          OR CAST(grandTotal AS CHAR) LIKE ${searchPattern}
+        )
+        ORDER BY id DESC
+        LIMIT ${limit}`;
     } else {
-      result = await prisma.$queryRaw(
-        prism.sql`SELECT id, code, date, total, ppn, grandTotal
-          FROM Orders 
-          WHERE (
-            code LIKE CONCAT('%', ${search}, '%')
-            OR date LIKE CONCAT('%', ${search}, '%')
-            OR total LIKE CONCAT('%', ${search}, '%')
-            OR ppn LIKE CONCAT('%', ${search}, '%')
-            OR grandTotal LIKE CONCAT('%', ${search}, '%')
-          )
+      result = await prisma.$queryRaw`
+        SELECT id, code, date, total, ppn, grandTotal
+        FROM orders
+        WHERE (
+          code LIKE ${searchPattern}
+          OR CAST(date AS CHAR) LIKE ${searchPattern}
+          OR CAST(total AS CHAR) LIKE ${searchPattern}
+          OR CAST(ppn AS CHAR) LIKE ${searchPattern}
+          OR CAST(grandTotal AS CHAR) LIKE ${searchPattern}
+        )
         AND id < ${last_id}
-        ORDER BY id DESC 
-        LIMIT ${limit};`
-      );
+        ORDER BY id DESC
+        LIMIT ${limit}`;
     }
+
     return res.status(200).json({
       message: "success",
       result,
+      lastId: result.length > 0 ? result[result.length - 1].id : 0,
+      hasMore: result.length >= limit,
     });
   } catch (error) {
     logger.error(
@@ -140,6 +142,8 @@ export const getAllOrder = async (req, res) => {
     return res.status(500).json({
       message: error.message,
       result: null,
+      lastId: 0,
+      hasMore: false,
     });
   }
 };

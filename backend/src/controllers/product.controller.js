@@ -102,7 +102,7 @@ export const getAllProduct = async (req, res) => {
               createdAt, 
               updatedAt 
           FROM 
-              Product 
+              product 
           WHERE 
               (
                   code LIKE ${`%${search}%`}
@@ -131,7 +131,7 @@ export const getAllProduct = async (req, res) => {
               createdAt, 
               updatedAt 
           FROM 
-              Product 
+              product 
           WHERE 
               (
                   code LIKE ${`%${search}%`}

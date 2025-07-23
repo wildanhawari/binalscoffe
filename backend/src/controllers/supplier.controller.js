@@ -15,7 +15,7 @@ export const getAllSupplier = async (req, res) => {
       const searchPattern = `%${search}%`;
       result = await prisma.$queryRaw`
       SELECT id, firstName, lastName, phone, email, address 
-      FROM Supplier 
+      FROM supplier 
       WHERE (
         CONCAT(firstName, ' ', lastName) LIKE ${searchPattern}
         OR phone LIKE ${searchPattern}
@@ -31,7 +31,7 @@ export const getAllSupplier = async (req, res) => {
 
       result = await prisma.$queryRaw`
       SELECT id, firstName, lastName, phone, email, address 
-      FROM Supplier 
+      FROM supplier 
       WHERE (
         CONCAT(firstName, ' ', lastName) LIKE ${searchPattern}
         OR phone LIKE ${searchPattern}

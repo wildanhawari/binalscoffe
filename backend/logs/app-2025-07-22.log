@@ -1,0 +1,295 @@
+ [LOGGER] 2025-07-22 07:59:35.476 AM error : controllers/purchase.controller.js:purchaseYearly - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.purchase' doesn't exist`
+ [LOGGER] 2025-07-22 07:59:35.499 AM error : controllers/order.controller.js:orderYearly - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.orders' doesn't exist`
+ [LOGGER] 2025-07-22 07:59:35.647 AM error : controllers/order.controller.js:orderYearly - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.orders' doesn't exist`
+ [LOGGER] 2025-07-22 07:59:35.659 AM error : controllers/purchase.controller.js:purchaseYearly - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.purchase' doesn't exist`
+ [LOGGER] 2025-07-22 08:44:28.063 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 08:44:28.125 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 10:36:43.604 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:36:43.690 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:36:43.928 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:36:55.604 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:36:55.714 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:36:55.869 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:37:38.916 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 10:37:39.103 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 10:41:17.206 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 10:41:17.231 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 10:41:38.736 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 10:41:38.756 AM error : controllers/supplier.controller.js:getAllSupplier - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Supplier' doesn't exist`
+ [LOGGER] 2025-07-22 10:43:43.217 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:43:43.256 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:43:43.355 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:44:25.393 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:44:25.444 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:44:25.465 AM error : controllers/product.controller.js:getAllProduct - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Product' doesn't exist`
+ [LOGGER] 2025-07-22 10:45:37.842 AM error : controllers/order.controller.js:orderYearly - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Can't reach database server at `srv1409.hstgr.io:3306`
+
+Please make sure your database server is running at `srv1409.hstgr.io:3306`.
+ [LOGGER] 2025-07-22 10:46:19.086 AM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 10:46:19.127 AM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 10:47:15.666 AM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 10:47:15.691 AM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 01:37:28.293 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 01:37:28.317 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 02:05:03.064 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (latin1_swedish_ci,NUMERIC) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 02:05:03.154 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (latin1_swedish_ci,NUMERIC) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 02:09:30.948 PM error : controllers/user.controller.js:setRefreshToken - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 5)
+ [LOGGER] 2025-07-22 02:09:50.732 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (latin1_swedish_ci,NUMERIC) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 02:09:50.834 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (latin1_swedish_ci,NUMERIC) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 02:23:32.116 PM error : controllers/order.controller.js:getAllOrder - prisma.raw is not a function
+ [LOGGER] 2025-07-22 02:23:32.168 PM error : controllers/order.controller.js:getAllOrder - prisma.raw is not a function
+ [LOGGER] 2025-07-22 02:25:26.125 PM error : controllers/order.controller.js:getAllOrder - prisma.raw is not a function
+ [LOGGER] 2025-07-22 02:25:26.132 PM error : controllers/order.controller.js:getAllOrder - prisma.raw is not a function
+ [LOGGER] 2025-07-22 02:25:26.150 PM error : controllers/order.controller.js:getAllOrder - prisma.raw is not a function
+ [LOGGER] 2025-07-22 02:27:55.566 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 02:27:55.620 PM error : controllers/order.controller.js:getAllOrder - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1267`. Message: `Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_bin,NONE) for operation 'like'`
+ [LOGGER] 2025-07-22 02:31:09.618 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:31:09.657 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:34:36.207 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:34:36.218 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:35:59.718 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:36:00.018 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:36:27.881 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:36:27.893 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:36:35.483 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:36:35.539 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:36:38.732 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:36:38.803 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:37:40.217 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:37:40.287 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:37:53.359 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:37:53.373 PM error : controllers/purchase.controller.js:getAllPurchase - Prisma is not defined
+ [LOGGER] 2025-07-22 02:42:13.781 PM error : controllers/user.controller.js:setRefreshToken - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Can't reach database server at `srv1409.hstgr.io:3306`
+
+Please make sure your database server is running at `srv1409.hstgr.io:3306`.
+ [LOGGER] 2025-07-22 02:42:27.853 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Can't reach database server at `srv1409.hstgr.io:3306`
+
+Please make sure your database server is running at `srv1409.hstgr.io:3306`.
+ [LOGGER] 2025-07-22 02:43:15.027 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:43:15.133 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:43:46.901 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:43:46.921 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:43:50.033 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:43:50.093 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:44:14.133 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:44:14.154 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.Purchase' doesn't exist`
+ [LOGGER] 2025-07-22 02:45:03.278 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.User' doesn't exist`
+ [LOGGER] 2025-07-22 02:45:03.300 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.User' doesn't exist`
+ [LOGGER] 2025-07-22 02:45:48.101 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.User' doesn't exist`
+ [LOGGER] 2025-07-22 02:45:48.498 PM error : controllers/purchase.controller.js:getAllPurchase - 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'u914378771_binalscoffe_db.User' doesn't exist`

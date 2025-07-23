@@ -17,6 +17,8 @@ model Category {
   id           Int       @id @default(autoincrement())
   kategoryName String
   Product      Product[]
+  
+  @@map("category")
 }
 
 model Product {
@@ -38,6 +40,8 @@ model Product {
   Orderdetail       Orderdetail[]
   Orderreturndetail Orderreturndetail[]
   Purchasedetail    Purchasedetail[]
+  
+  @@map("product")
 }
 
 model Supplier {
@@ -48,6 +52,8 @@ model Supplier {
   email     String?
   address   String
   Product   Product[]
+  
+  @@map("supplier")
 }
 
 model Carts {
@@ -61,6 +67,8 @@ model Carts {
   userId      Int
   user        User    @relation(fields: [userId], references: [id])
   product     Product @relation(fields: [productId], references: [id])
+  
+  @@map("carts")
 }
 
 model Orders {
@@ -74,6 +82,8 @@ model Orders {
   user        User          @relation(fields: [userId], references: [id])
   Orderdetail Orderdetail[]
   Orderreturn Orderreturn[]
+  
+  @@map("orders")  // Ini yang penting!
 }
 
 model Orderdetail {
@@ -87,6 +97,8 @@ model Orderdetail {
   orderId     Int
   order       Orders  @relation(fields: [orderId], references: [id])
   product     Product @relation(fields: [productId], references: [id])
+  
+  @@map("orderdetail")
 }
 
 model User {
@@ -99,6 +111,8 @@ model User {
   Orders      Orders[]
   Orderreturn Orderreturn[]
   Purchase    Purchase[]
+  
+  @@map("user")
 }
 
 model Orderreturn {
@@ -111,6 +125,8 @@ model Orderreturn {
   user              User                @relation(fields: [userId], references: [id])
   order             Orders              @relation(fields: [orderId], references: [id])
   Orderreturndetail Orderreturndetail[]
+  
+  @@map("orderreturn")
 }
 
 model Orderreturndetail {
@@ -123,6 +139,8 @@ model Orderreturndetail {
   returnId    Int
   orderreturn Orderreturn @relation(fields: [returnId], references: [id])
   product     Product     @relation(fields: [productId], references: [id])
+  
+  @@map("orderreturndetail")
 }
 
 model Purchase {
@@ -136,6 +154,8 @@ model Purchase {
   userId         Int
   user           User             @relation(fields: [userId], references: [id])
   Purchasedetail Purchasedetail[]
+  
+  @@map("purchase")  // Ini yang penting!
 }
 
 model Purchasedetail {
@@ -148,4 +168,6 @@ model Purchasedetail {
   purchaseId  Int
   purchase    Purchase @relation(fields: [purchaseId], references: [id])
   product     Product  @relation(fields: [productId], references: [id])
+  
+  @@map("purchasedetail")
 }

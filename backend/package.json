@@ -14,9 +14,10 @@
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
     "pdf-creator-node": "^2.3.5",
+    "prisma": "^6.1.0",
+    "prisma-erd-generator": "^2.0.4",
     "winston": "^3.17.0",
-    "winston-daily-rotate-file": "^5.0.0",
-    "prisma": "^6.1.0"
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
